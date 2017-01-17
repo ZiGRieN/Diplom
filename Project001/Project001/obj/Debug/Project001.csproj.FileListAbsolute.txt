@@ -1,1 +1,10 @@
 E:\Диплом\Project001\Project001\bin\Debug\Project001.exe.config
+E:\GitHub\Diplom\Project001\Project001\bin\Debug\Project001.exe.config
+E:\GitHub\Diplom\Project001\Project001\bin\Debug\Project001.exe
+E:\GitHub\Diplom\Project001\Project001\bin\Debug\Project001.pdb
+E:\GitHub\Diplom\Project001\Project001\obj\Debug\Project001.Form1.resources
+E:\GitHub\Diplom\Project001\Project001\obj\Debug\Project001.Properties.Resources.resources
+E:\GitHub\Diplom\Project001\Project001\obj\Debug\Project001.csproj.GenerateResource.Cache
+E:\GitHub\Diplom\Project001\Project001\obj\Debug\Project001.exe
+E:\GitHub\Diplom\Project001\Project001\obj\Debug\Project001.pdb
+E:\GitHub\Diplom\Project001\Project001\obj\Debug\Project001.csprojResolveAssemblyReference.cache

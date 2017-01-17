@@ -14,18 +14,18 @@ namespace Project001
 
     Thread thread;
         
-        public void StartServer(int port)
-        {
-            
+        public Server(int port)
+        {          
             TcpListener listener = new TcpListener(IPAddress.Any, port);
             listener.Start();
+            //form.sost_serv = getSost();
             ThreadPool.SetMaxThreads(4,4);
             ThreadPool.SetMinThreads(1,1);
             while (true)
             {
-                TcpClient client = listener.AcceptTcpClient();
-                thread = new Thread(new ParameterizedThreadStart(ClientThread));
-                thread.Start(client);
+                thread = new Thread(ClientThread);
+
+                thread.Start(listener.AcceptTcpClient());
             }
 
         }
@@ -33,6 +33,12 @@ namespace Project001
         static void ClientThread(Object StateInfo)
         {
             new Client((TcpClient)StateInfo);
+        }
+
+        public string getSost()
+        {
+            var s = "Сервер запущен";
+            return s;  
         }
     }
 }

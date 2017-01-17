@@ -36,7 +36,7 @@
             // 
             // portTB
             // 
-            this.portTB.Location = new System.Drawing.Point(169, 12);
+            this.portTB.Location = new System.Drawing.Point(180, 12);
             this.portTB.Name = "portTB";
             this.portTB.Size = new System.Drawing.Size(100, 22);
             this.portTB.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 22);
+            this.label1.Size = new System.Drawing.Size(168, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "Введите номер порта";
             // 
@@ -63,7 +63,7 @@
             // 
             this.label2.Location = new System.Drawing.Point(12, 65);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(257, 23);
+            this.label2.Size = new System.Drawing.Size(268, 23);
             this.label2.TabIndex = 3;
             this.label2.Text = "Состояние сервера:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -72,7 +72,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(310, 174);
+            this.ClientSize = new System.Drawing.Size(323, 174);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
